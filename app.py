@@ -222,6 +222,7 @@ okr_data = {
                 "id": "OBJ-AD-01",
                 "title": "Consolidar visión digital compartida",
                 "justif": "El éxito del digital twin dependió de que múltiples equipos compartieran objetivos comunes. Sin alineamiento, los equipos operaban con supuestos distintos sobre el proceso.",
+                "why_measure": "Sin una visión digital medida y verificada, el alineamiento es solo declarativo. En el caso Arçelik, los silos entre IT, producción y automatización generaron fricciones reales. Medir este OKR permite detectar temprano qué unidades aún no han internalizado la hoja de ruta y corregir antes de que la brecha afecte el despliegue global.",
                 "krs": [
                     {"id": "KR-AD-01.1", "label": "Plantas con roadmap digital aprobado (%)", "current": 62, "target": 100, "owner": "CDO", "cadencia": "Semestral"},
                     {"id": "KR-AD-01.2", "label": "Sesiones cross-funcionales realizadas", "current": 18, "target": 24, "owner": "PMO", "cadencia": "Mensual"},
@@ -232,6 +233,7 @@ okr_data = {
                 "id": "OBJ-AD-02",
                 "title": "Escalar digital twin a 32 líneas globales",
                 "justif": "El twin fue probado en una planta. El escalamiento global requiere que cada región acepte y ejecute el mismo modelo operativo digital.",
+                "why_measure": "El piloto exitoso en una planta no garantiza la replicabilidad global. Medir el avance del escalamiento permite identificar qué plantas enfrentan barreras técnicas, culturales o de infraestructura antes de comprometer presupuesto. Sin esta métrica, la alta gerencia opera a ciegas sobre el estado real del despliegue.",
                 "krs": [
                     {"id": "KR-AD-02.1", "label": "Plantas con DT operativo / 8 totales", "current": 2, "target": 8, "owner": "Dir. Manufactura Global", "cadencia": "Trimestral"},
                     {"id": "KR-AD-02.2", "label": "Parámetros estandarizados entre plantas (%)", "current": 58, "target": 90, "owner": "Eq. Simulación", "cadencia": "Semestral"},
@@ -242,6 +244,7 @@ okr_data = {
                 "id": "OBJ-AD-03",
                 "title": "Institucionalizar gobernanza digital",
                 "justif": "La gobernanza flexible reduce fricciones futuras en proyectos I4.0, balanceando la rigidez administrativa de Arçelik con la agilidad requerida.",
+                "why_measure": "El caso documenta que los tiempos de aprobación fueron uno de los principales cuellos de botella del proyecto. Medir la velocidad y cobertura de la gobernanza digital revela si la organización está reduciendo su inercia burocrática o si los mismos obstáculos seguirán afectando futuros proyectos de transformación.",
                 "krs": [
                     {"id": "KR-AD-03.1", "label": "Decisiones digitales por comité (%)", "current": 80, "target": 100, "owner": "C-Suite", "cadencia": "Trimestral"},
                     {"id": "KR-AD-03.2", "label": "Reducción tiempo aprobación proyectos (%)", "current": 28, "target": 40, "owner": "PMO Corp.", "cadencia": "Trimestral"},
@@ -258,6 +261,7 @@ okr_data = {
                 "id": "OBJ-LD-01",
                 "title": "Desarrollar masa crítica de líderes digitales",
                 "justif": "Sin líderes capaces de interpretar datos de sensores, metodologías ágiles y colaboración con startups, el proyecto no habría avanzado.",
+                "why_measure": "Las transformaciones digitales fallan más por déficit de liderazgo que por déficit tecnológico. Medir la certificación y retención de líderes digitales permite anticipar si Arçelik tiene el capital humano suficiente para sostener el programa I4.0 a escala global, o si depende de pocos individuos irremplazables.",
                 "krs": [
                     {"id": "KR-LD-01.1", "label": "Gerentes certificados en liderazgo digital (%)", "current": 42, "target": 70, "owner": "CPO / Atölye 4.0", "cadencia": "Semestral"},
                     {"id": "KR-LD-01.2", "label": "Líderes ágiles certificados activos", "current": 28, "target": 50, "owner": "PMO", "cadencia": "Trimestral"},
@@ -278,6 +282,7 @@ okr_data = {
                 "id": "OBJ-LD-03",
                 "title": "Normalizar cultura de experimentación digital",
                 "justif": "Arçelik intentó ML y FEA antes del digital twin. La capacidad de pivotar sin abandonar el proyecto debe institucionalizarse.",
+                "why_measure": "Una cultura que no mide su propia capacidad de experimentar tiende a recaer en el conservadurismo. Cuantificar el número de experimentos lanzados, la velocidad de decisión en contextos de incertidumbre y el clima de innovación permite a la alta gerencia saber si la mentalidad ágil está arraigando o si fue un evento puntual.",
                 "krs": [
                     {"id": "KR-LD-03.1", "label": "Experimentos digitales lanzados", "current": 9, "target": 12, "owner": "Dir. Atölye 4.0", "cadencia": "Trimestral"},
                     {"id": "KR-LD-03.2", "label": "Tiempo identificación → piloto (días)", "current": 110, "target": 90, "owner": "PMO / CTO", "cadencia": "Trimestral"},
@@ -294,6 +299,7 @@ okr_data = {
                 "id": "OBJ-IC-01",
                 "title": "Reducir defectos que impactan calidad percibida",
                 "justif": "Los problemas de termoformado generaban defectos visibles en el producto final. La reducción del scrap de 5–8% a 1–2% es una mejora directa en experiencia del cliente.",
+                "why_measure": "La calidad del proceso interno solo genera valor si se traduce en menos defectos percibidos por el cliente. Medir este OKR cierra el ciclo entre la operación fabril y la satisfacción del mercado. Sin este vínculo medido, los ahorros operativos del digital twin quedan desconectados del propósito estratégico de la empresa.",
                 "krs": [
                     {"id": "KR-IC-01.1", "label": "Scrap ratio líneas termoformado (%)", "current": 1.4, "target": 1.0, "owner": "Dir. Calidad", "cadencia": "Mensual"},
                     {"id": "KR-IC-01.2", "label": "Reducción reclamaciones garantía (%)", "current": 38, "target": 50, "owner": "Dir. Servicio", "cadencia": "Trimestral"},
@@ -304,6 +310,7 @@ okr_data = {
                 "id": "OBJ-IC-02",
                 "title": "Acelerar lanzamiento de nuevos modelos",
                 "justif": "Cada nuevo refrigerador requiere un nuevo modelo FEM. El digital twin debe convertirse en ventaja competitiva para acortar el time-to-market.",
+                "why_measure": "La velocidad de innovación de producto es un diferenciador competitivo crítico en el mercado de electrodomésticos. Medir el time-to-production y la tasa de éxito en primeros runs permite cuantificar si el digital twin está generando ventaja competitiva real, más allá del ahorro en materiales.",
                 "krs": [
                     {"id": "KR-IC-02.1", "label": "Reducción tiempo setup nuevo modelo (%)", "current": 33, "target": 50, "owner": "Dir. Ingeniería", "cadencia": "Por proyecto"},
                     {"id": "KR-IC-02.2", "label": "Nuevos modelos con calidad en 1er run (%)", "current": 78, "target": 90, "owner": "Dir. Ing. Proceso", "cadencia": "Por lanzamiento"},
@@ -314,6 +321,7 @@ okr_data = {
                 "id": "OBJ-IC-03",
                 "title": "Integrar voz del cliente en el digital twin",
                 "justif": "El siguiente nivel de madurez es cerrar el ciclo incorporando datos de campo y retroalimentación del cliente para mejorar continuamente el modelo.",
+                "why_measure": "Un digital twin que solo aprende del proceso interno tiene un techo de mejora. Medir la integración de datos de campo en el modelo permite evaluar si Arçelik avanza hacia un sistema de aprendizaje continuo, donde cada falla en campo retroalimenta el modelo y previene recurrencias en fábrica.",
                 "krs": [
                     {"id": "KR-IC-03.1", "label": "Modelos con datos de campo integrados (%)", "current": 22, "target": 60, "owner": "Dir. R&D / Analytics", "cadencia": "Semestral"},
                     {"id": "KR-IC-03.2", "label": "Tiempo defecto campo → ajuste DT (días)", "current": 28, "target": 15, "owner": "Dir. Calidad / IT", "cadencia": "Trimestral"},
@@ -330,6 +338,7 @@ okr_data = {
                 "id": "OBJ-AO-01",
                 "title": "Institucionalizar metodologías ágiles",
                 "justif": "El modelo waterfall era inadecuado para alta incertidumbre tecnológica. La agilidad fue la decisión que salvó presupuesto y cronograma del proyecto.",
+                "why_measure": "La adopción de metodologías ágiles declarada en un documento no equivale a capacidad organizacional real. Medir la velocidad de sprint, la desviación de presupuesto y la cobertura ágil en proyectos activos permite determinar si la organización ha internalizado el método o si solo lo aplica superficialmente bajo presión.",
                 "krs": [
                     {"id": "KR-AO-01.1", "label": "Proyectos digitales con metodología ágil (%)", "current": 72, "target": 90, "owner": "PMO Corp.", "cadencia": "Trimestral"},
                     {"id": "KR-AO-01.2", "label": "Incremento velocidad de sprint (%)", "current": 16, "target": 25, "owner": "PMO / Líderes", "cadencia": "Quincenal"},
@@ -340,6 +349,7 @@ okr_data = {
                 "id": "OBJ-AO-02",
                 "title": "Reducir tiempo de respuesta operativa",
                 "justif": "El valor del digital twin no está solo en detectar problemas, sino en la velocidad de respuesta. El sistema tiene dos modos: manual y automático.",
+                "why_measure": "Un sistema de detección sin respuesta rápida no genera valor operativo. Medir la latencia desde la alerta hasta la corrección —y el porcentaje de correcciones automáticas— revela el nivel de madurez real del sistema. Es el indicador que separa un digital twin informativo de uno verdaderamente operativo.",
                 "krs": [
                     {"id": "KR-AO-02.1", "label": "Tiempo alerta → corrección manual (min)", "current": 42, "target": 30, "owner": "Dir. Operaciones", "cadencia": "Mensual"},
                     {"id": "KR-AO-02.2", "label": "Correcciones ejecutadas automáticamente (%)", "current": 48, "target": 70, "owner": "Dir. Automatización", "cadencia": "Trimestral"},
@@ -350,6 +360,7 @@ okr_data = {
                 "id": "OBJ-AO-03",
                 "title": "Optimizar consumo de materiales en tiempo real",
                 "justif": "El ahorro de 1,600 toneladas anuales ($2M+) fue resultado del control en tiempo real. Escalar requiere sistematizar el control adaptativo en todas las líneas.",
+                "why_measure": "Este OKR conecta directamente la transformación digital con el P&L de la empresa. Medir el ahorro acumulado y la reducción de consumo por unidad producida permite justificar ante el CFO y el consejo la inversión en el programa de digital twins con evidencia financiera y ambiental cuantificada.",
                 "krs": [
                     {"id": "KR-AO-03.1", "label": "Reducción plástico por unidad (% anual)", "current": 5.8, "target": 8.0, "owner": "Dir. Operaciones", "cadencia": "Mensual"},
                     {"id": "KR-AO-03.2", "label": "Ahorro acumulado materiales (USD M)", "current": 2.4, "target": 6.0, "owner": "CFO", "cadencia": "Trimestral"},
@@ -366,6 +377,7 @@ okr_data = {
                 "id": "OBJ-DD-01",
                 "title": "Construir infraestructura de datos robusta",
                 "justif": "Sin la infraestructura PLC/IoT existente, el digital twin no habría sido posible. Formalizar y escalar esta infraestructura es prerequisito para decisiones basadas en datos.",
+                "why_measure": "Una decisión basada en datos de mala calidad o con alta latencia puede ser más dañina que una decisión intuitiva. Medir la cobertura de sensores, el uptime del pipeline y la latencia de datos asegura que el digital twin opere sobre información confiable. Sin estas métricas, la precisión del modelo es una incógnita.",
                 "krs": [
                     {"id": "KR-DD-01.1", "label": "Parámetros críticos monitoreados en RT (%)", "current": 81, "target": 95, "owner": "Dir. IT", "cadencia": "Trimestral"},
                     {"id": "KR-DD-01.2", "label": "Uptime infraestructura de datos (%)", "current": 98.7, "target": 99.5, "owner": "CTO", "cadencia": "Mensual"},
@@ -376,6 +388,7 @@ okr_data = {
                 "id": "OBJ-DD-02",
                 "title": "Transformar conocimiento tácito en modelos explícitos",
                 "justif": "El conocimiento tácito de operadores era el principal activo no codificado del proceso. Digitalizarlo fue una de las contribuciones más importantes del proyecto.",
+                "why_measure": "El conocimiento tácito no medido es un riesgo de continuidad operativa: si un operador experto se va, el conocimiento se va con él. Medir qué porcentaje del saber-hacer del proceso ha sido codificado en el modelo permite gestionar este riesgo y cuantificar el avance real de la digitalización del capital intelectual.",
                 "krs": [
                     {"id": "KR-DD-02.1", "label": "Procedimientos críticos codificados en DT (%)", "current": 55, "target": 80, "owner": "Dir. Ing. Proceso", "cadencia": "Trimestral"},
                     {"id": "KR-DD-02.2", "label": "MAPE del digital twin vs. valores reales", "current": 7.2, "target": 5.0, "owner": "Eq. Simulación", "cadencia": "Mensual"},
@@ -386,6 +399,7 @@ okr_data = {
                 "id": "OBJ-DD-03",
                 "title": "Desarrollar capacidades de analytics avanzado",
                 "justif": "El intento inicial de ML falló por limitaciones en feature engineering. Internalizar esta capacidad es crítico para la autonomía analítica de Arçelik.",
+                "why_measure": "Depender de Simularge para todo el feature engineering crea una vulnerabilidad estratégica de largo plazo. Medir la cantidad de data scientists internos certificados, las iteraciones de mejora del modelo y el porcentaje de detección predictiva permite evaluar si Arçelik está construyendo soberanía analítica o perpetuando la dependencia externa.",
                 "krs": [
                     {"id": "KR-DD-03.1", "label": "Data scientists certificados internos", "current": 11, "target": 20, "owner": "CPO / CTO", "cadencia": "Semestral"},
                     {"id": "KR-DD-03.2", "label": "Iteraciones mejora de modelo por año/planta", "current": 2, "target": 4, "owner": "Dir. R&D", "cadencia": "Trimestral"},
@@ -402,6 +416,7 @@ okr_data = {
                 "id": "OBJ-EC-01",
                 "title": "Fortalecer ecosistema startup-academia-empresa",
                 "justif": "La conexión con ITU Çekirdek y Simularge fue más efectiva que contratar a un vendor establecido. Este modelo debe convertirse en capacidad sistemática.",
+                "why_measure": "Sin métricas, el ecosistema de colaboración queda como un logro puntual en lugar de convertirse en una capacidad organizacional sostenible. Medir el número de startups activas, los proyectos co-desarrollados y el ROI comparativo permite demostrar al consejo que la apuesta por el ecosistema genera más valor que el modelo transaccional tradicional.",
                 "krs": [
                     {"id": "KR-EC-01.1", "label": "Startups activas en proyectos colaborativos", "current": 7, "target": 15, "owner": "Dir. Atölye 4.0", "cadencia": "Trimestral"},
                     {"id": "KR-EC-01.2", "label": "Proyectos co-desarrollados con universidades", "current": 4, "target": 8, "owner": "Dir. R&D", "cadencia": "Trimestral"},
@@ -412,6 +427,7 @@ okr_data = {
                 "id": "OBJ-EC-02",
                 "title": "Desarrollar modelo replicable empresa-startup",
                 "justif": "Arçelik tenía 'reglas estrictas y procedimientos rígidos' para colaborar con startups. Reducir estas fricciones es una capacidad organizacional estratégica.",
+                "why_measure": "La fricción en el proceso de onboarding de startups no solo ralentiza proyectos: disuade al mejor talento emprendedor de querer trabajar con Arçelik. Medir el tiempo de negociación, la adopción del playbook y la satisfacción de los startups socios permite cuantificar si la organización está volviéndose genuinamente colaborativa o solo aparentándolo.",
                 "krs": [
                     {"id": "KR-EC-02.1", "label": "Tiempo contacto → acuerdo startup (días)", "current": 68, "target": 45, "owner": "Dir. Legal / PMO", "cadencia": "Por proyecto"},
                     {"id": "KR-EC-02.2", "label": "Proyectos con playbook estandarizado (%)", "current": 55, "target": 100, "owner": "Dir. Atölye 4.0", "cadencia": "Trimestral"},
@@ -422,6 +438,7 @@ okr_data = {
                 "id": "OBJ-EC-03",
                 "title": "Posicionar Arçelik como hub de innovación manufacturera",
                 "justif": "La relación con ITU Çekirdek y el reconocimiento Global Lighthouse posiciona a Arçelik como polo gravitacional del ecosistema. Esta posición debe gestionarse activamente.",
+                "why_measure": "El posicionamiento como hub de innovación no es un objetivo de relaciones públicas: es una palanca de acceso a co-financiamiento externo, talento de élite y nuevas colaboraciones. Medir el porcentaje de proyectos con financiamiento externo y la presencia en rankings internacionales permite evaluar el retorno estratégico de esta inversión de reputación.",
                 "krs": [
                     {"id": "KR-EC-03.1", "label": "Proyectos con co-financiamiento externo (%)", "current": 18, "target": 30, "owner": "Dir. R&D / CFO", "cadencia": "Anual"},
                     {"id": "KR-EC-03.2", "label": "Startups escaladas con apoyo Arçelik", "current": 2, "target": 5, "owner": "Dir. Atölye 4.0", "cadencia": "Anual"},
