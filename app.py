@@ -779,6 +779,7 @@ else:
         for okr in pdata["okrs"]:
             with st.expander(f"📌 {okr['id']} — {okr['title']}", expanded=False):
                 st.markdown(f"**Justificación estratégica:** {okr['justif']}")
+                st.markdown(f"**¿Por qué medir este OKR?** {okr['why_measure']}")
                 st.markdown("---")
                 for kr in okr["krs"]:
                     pct = kr_progress(kr)
