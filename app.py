@@ -611,8 +611,7 @@ def gauge_rp(value, title, color):
         number={"suffix": "%", "font": {"size": 26, "family": "Cormorant Garamond, serif", "color": RP["charcoal"]}},
         title={"text": title, "font": {"size": 12, "family": "Jost, sans-serif", "color": RP["warm_gray"]}},
         gauge={
-            "axis": {"range": [0, 100], "tickfont": {"size": 9}, "tickcolor": RP["light_gray"],
-                     "tickwidth": 1, "linecolor": RP["cream_dark"]},
+            "axis": {"range": [0, 100], "tickfont": {"size": 9}, "tickcolor": RP["light_gray"], "tickwidth": 1},
             "bar": {"color": color, "thickness": 0.55},
             "bgcolor": RP["cream"],
             "borderwidth": 0,
